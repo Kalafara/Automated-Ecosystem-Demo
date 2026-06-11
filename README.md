@@ -381,5 +381,5 @@ These "shortcomings" are offset by a **proven ability to build complex, function
 ## License
 
 This project is a demonstration and represents a personal portfolio. All rights reserved.
-# Automated-Ecosystem-Demo
-​Full-stack автоматизирана екосистема с Zero-footprint архитектура. Включва сигурен бекенд (TypeScript/C++), паралелни Python ботове с Computer Vision (OpenCV) и React 19 дашборд. Демонстрира resilient дизайн, управление на сложни процеси и защитено стриймване на модули.
+Automated-Ecosystem-Demo
+​A full-stack automated ecosystem with a zero-footprint architecture. Features a secure backend (TypeScript/C++), parallel Python bots with Computer Vision (OpenCV), and a React 19 dashboard. Demonstrates resilient design, complex process management, and secure module streaming.
