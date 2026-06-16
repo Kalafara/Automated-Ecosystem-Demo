@@ -5,7 +5,7 @@ Architectural showcase of an automation ecosystem built from scratch in 6 months
 
 PROJECT SCALE
 
-- Total lines of code: 150,000+ (excluding dependencies and build artifacts)
+- Total lines of code: 195,000+ (excluding dependencies and build artifacts)
 - Source files: 560+
 - Programming languages: TypeScript, Python, C++, JavaScript, HTML/CSS
 - Development time: 6 months (solo, self‑taught)
