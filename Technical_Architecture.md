@@ -5,8 +5,8 @@ Architectural showcase of an automation ecosystem built from scratch in 6 months
 
 PROJECT SCALE
 
-- Total lines of code: 195,000+ (excluding dependencies and build artifacts)
-- Source files: 560+
+- Total lines of code: 195,000 (excluding dependencies and build artifacts)
+- Source files: 561
 - Programming languages: TypeScript, Python, C++, JavaScript, HTML/CSS
 - Development time: 6 months (solo, self‑taught)
 - AI tokens consumed: 8 billion+ across multiple models (paid)
@@ -323,7 +323,7 @@ The process continues until all five AI models independently agree that the solu
 
 PROJECT STATISTICS
 
-- Total lines of code: 150,000+
+- Total lines of code: 195,000
 - Source files: 561
 - Languages: TypeScript, Python, C++, JavaScript, HTML/CSS
 - AI tokens consumed: 8 billion+ (paid) + estimated 16 billion+ (free models)
@@ -333,7 +333,7 @@ PROJECT STATISTICS
 - Payment gateways: Stripe, PayPal, Coinbase
 
 
-"561 files. 150,000 lines. 4 languages. 6 months. Self‑taught. One methodology: command AI models like a team of specialists, validate everything, never give up.
+"561 files. 195,000 lines. 4 languages. 6 months. Self‑taught. One methodology: command AI models like a team of specialists, validate everything, never give up.
 
 This is not a claim. This is a repository. Read the code."
 
