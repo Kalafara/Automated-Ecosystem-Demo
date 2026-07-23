@@ -1,26 +1,32 @@
-# Angel Dimitrov — Software Developer & Systems Architect
+# Angel Dimitrov — Software Developer & Systems Integrator
 
-I'm a self‑taught developer from Sofia, Bulgaria, focused on building full‑stack systems with a strong emphasis on security, automation, and clean architecture.
+I'm a self-taught developer from Sofia, Bulgaria, focused on automation, full-stack systems, reliability, and AI-assisted engineering workflows.
 
 ## What I built
-**Phantom Shield** — a complete automation management platform (195k+ lines of TypeScript, Python, and C++) built solo in 6 months using a structured AI‑assisted methodology. It features real‑time orchestration, a custom encrypted communication protocol, payment integration, and a React/Electron frontend with 18+ views.
 
-[→ Project demo & source code](https://github.com/Kalafara/Automated-Ecosystem-Demo)
-[→ Technical architecture deep dive](https://github.com/Kalafara/Automated-Ecosystem-Demo/blob/main/Technical_Architecture.md)
+**Phantom Shield** is a large automation-management platform developed over six months through a structured, human-led, AI-assisted workflow. The system combines an Electron/React desktop client, a Node.js/TypeScript server, six Python automation engines, SQLite-backed state, native C++ experiments, real-time communication, payment integrations, deployment workflows, and extensive operational diagnostics.
+
+The public repository is intended for **architecture review, source inspection, portfolio demonstration, and technical discussion**. It is not distributed as a complete standalone installation and cannot currently be launched by an external reviewer without private runtime configuration, protected assets, and project-specific infrastructure.
+
+[→ Project demo & source code](https://github.com/Kalafara/Automated-Ecosystem-Demo)  
+[→ Technical architecture deep dive](https://github.com/Kalafara/Automated-Ecosystem-Demo/blob/main/Technical_Architecture.md)  
+[→ Repository structure evidence](./PHANTOM_SHIELD_REPOSITORY_STRUCTURE_EVIDENCE.md)
 
 ## Tech stack
-TypeScript, React, Node.js, Python, C++, Docker, SQLite, Stripe, OpenCV, Electron
+
+TypeScript, React, Node.js, Python, C++, Electron, Docker, SQLite, OpenCV, GitHub Actions, Stripe
 
 ## Currently seeking
-A remote junior/associate position in software development or QA automation. Open to contract work and long‑term collaboration.
+
+A remote junior/associate position in software development, automation, QA automation, internal tools, data processing, or platform support. Open to long-term collaboration and structured mentoring.
 
 📫 angel.d.dimitrovv@gmail.com
 
+---
 
+# 🛡️ Phantom Shield — Hooligan Commander Army
 
-# 🛡️ Phantom Shield – Hooligan Commander Army
-
-> **195,000+ lines of production-grade code. 6 months. One self-taught engineer. A complete automation ecosystem with military-grade security.**
+> **195,000+ lines of source code across 561 files, developed over six months through a structured AI-assisted engineering workflow.**
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
@@ -34,24 +40,73 @@ A remote junior/associate position in software development or QA automation. Ope
 
 ---
 
-## 📖 About the Project
+## 📚 Documentation
 
-**Phantom Shield** is a full‑stack automation platform built from scratch in six months by a self‑taught developer. It combines:
-
-- A **Node.js/TypeScript backend** with a 25‑step initialization sequence and 8 defensive middleware layers.
-- A **custom stealth WebSocket protocol** – XChaCha20‑Poly1305 encryption, 400KB noise wrapping, anti‑replay protection, and DoD‑grade memory wiping.
-- **6 parallel Python automation bots** using OpenCV and PyAutoGUI with a spiral search algorithm and multi‑layered error handling.
-- A **native C++ module** with TPM 2.0 attestation, memory guard pages, anti‑debugging, and self‑destruct on tamper.
-- An **Electron/React 19 client** with 18+ specialised views, live telemetry, AI chat, community hub, and arcade games.
-- A **5‑tier subscription system** integrated with **Stripe**, **PayPal**, and **Coinbase** – only active bot time is billed.
-- **Zero‑footprint execution** – all logic is streamed into RAM after authentication and wiped on session close.
-- **Self‑healing infrastructure** – Docker, Render Cloud, Google Drive/Dropbox backup, CI/CD with GitHub Actions.
-
-> 🎥 **Live demo video** – *coming soon* (the system is running on Render Cloud; a short walkthrough will be uploaded).
+| Document | Purpose |
+|---|---|
+| [Project demo & source code](https://github.com/Kalafara/Automated-Ecosystem-Demo) | Public repository for source inspection, screenshots, and portfolio review |
+| [Technical architecture deep dive](https://github.com/Kalafara/Automated-Ecosystem-Demo/blob/main/Technical_Architecture.md) | Architecture, system boundaries, trade-offs, and engineering decisions |
+| [Repository structure evidence](./PHANTOM_SHIELD_REPOSITORY_STRUCTURE_EVIDENCE.md) | High-level evidence of repository scope, modular organisation, and subsystem separation |
 
 ---
 
-## 📸 Screenshots – Visual Tour
+## 📌 Project Status & Review Notice
+
+Phantom Shield is an active portfolio project and is not presented as a finished commercial release.
+
+The public repository can be used to review:
+
+- architecture and module organisation;
+- selected implementation details;
+- screenshots and product flows;
+- automation, logging, recovery, and infrastructure concepts;
+- the documented AI-assisted engineering process.
+
+The repository is **not currently a one-command public demo**. Some runtime components, configuration, credentials, protected assets, and environment-specific dependencies are intentionally excluded. The presence of source code and documentation should not be interpreted as an independent security audit or a guarantee of production readiness.
+
+---
+
+## 📖 About the Project
+
+**Phantom Shield** began as a single Python automation script created to remove a repetitive manual task. It later evolved into a broad client-server automation platform with:
+
+- a **Node.js/TypeScript backend** with staged initialisation, middleware, session handling, logging, and automation orchestration;
+- an experimental **encrypted WebSocket transport** using authenticated encryption, message chunking, integrity checks, and anti-replay controls;
+- **six Python automation engines** using OpenCV and PyAutoGUI, including timeouts, retry limits, fallback strategies, and recovery paths;
+- a **native C++/N-API module** exploring libsodium integration, TPM-related interfaces, guarded memory, integrity monitoring, and runtime checks;
+- an **Electron/React 19 client** with 18+ specialised views, telemetry, AI guidance, communication, plans, documentation, and supporting utilities;
+- a **five-tier access model** connected to Stripe, PayPal, and Coinbase workflows;
+- Docker, Render Cloud, GitHub Actions, backup/recovery workflows, and structured operational logging.
+
+The strongest portfolio value of the project is the end-to-end integration of product UI, automation, communication, persistence, diagnostics, infrastructure, and iterative recovery work.
+
+> 🎥 **Live demo video** — planned. A short walkthrough will be added when a stable demonstration build is ready.
+
+---
+
+## 🤖 AI-Assisted Engineering Disclosure
+
+The project was developed through a **human-led, multi-model AI-assisted workflow**.
+
+My role included:
+
+- defining product goals, requirements, and acceptance criteria;
+- choosing features and architectural direction;
+- prompting multiple AI models for implementation and review;
+- comparing conflicting proposals;
+- integrating approved changes;
+- running the system and testing behaviour;
+- examining logs and failures;
+- rejecting or revising unsuitable output;
+- making final acceptance decisions.
+
+A substantial part of the source code was generated with AI assistance. I do not claim to have manually written or independently mastered every line of the codebase. The project demonstrates practical system ownership, integration, testing, persistence, and rapid learning, while deeper independent coding knowledge remains an active area of development.
+
+> **Engineering principle:** AI output is treated as a proposal, not as proof. Behaviour, logs, tests, source review, and reproducible evidence determine whether a change is accepted.
+
+---
+
+## 📸 Screenshots — Visual Tour
 
 Here's what the application looks like in action:
 
@@ -85,14 +140,14 @@ Here's what the application looks like in action:
 
 | Area | Highlights |
 |------|------------|
-| **Backend** | Express.js + WebSocket server, 25‑step init, 8 middleware layers (rate limiting, anomaly detection, forensic logging, CSRF, JSON complexity guard, timing guard, resource guard, BlackLevel security). |
-| **Security** | Custom XChaCha20‑Poly1305 + Falcon‑512 (post‑quantum) in the KillSwitch module; separate 2,700‑line encryption engine with X25519, Ed25519, scrypt, PBKDF2, SHA‑3, BLAKE2; constant‑time operations; DoD 7‑pass wipe. |
-| **Dual‑Path Verification** | Two independent hardware audits (Security + Mother modules) – both must return `GREEN` before access is granted. |
-| **Native C++ Module** | TPM 2.0 attestation, memory guard pages, stack canaries, anti‑debug, VM/sandbox detection, integrity monitoring every 5 seconds. |
-| **Automation Bots** | 6 Python bots using OpenCV and PyAutoGUI with a spiral search algorithm, confidence thresholds, grayscale optimisation, and multi‑layered error handling (timeouts, retry limits, emergency recovery). |
-| **Frontend** | React 19 + Electron, 18+ views: HUD with live telemetry, AI chat, bot controller, security dashboard, hardware diagnostics, community chat, arcade games, embedded browser, and more. |
-| **Monetisation** | 5‑tier system (Trial, Free, Hooligan, VIP, Black Level) with active‑only billing (the meter runs only when a bot is engaged). Midnight reset, no rollover, global grace period. |
-| **Infrastructure** | Docker multi‑stage build, Render Cloud, GitHub Actions CI/CD, self‑healing database recovery from Google Drive/Dropbox. |
+| **Backend** | Express.js and WebSocket orchestration, staged initialisation, session handling, middleware, rate limiting, structured logging, anomaly checks, resource guards, and recovery workflows. |
+| **Security Experiments** | Authenticated encryption, anti-replay controls, constant-time helpers, hardware-bound validation research, integrity checks, and native security experiments. Production use would require audited libraries, standard protocols, formal review, and reproducible test evidence. |
+| **Dual-Path Verification** | Two separate verification paths — Security and Mother modules — are designed to approve access independently before protected operations continue. |
+| **Native C++ Module** | N-API integration, libsodium-backed cryptographic operations, TPM-related experiments, memory guard pages, stack canaries, anti-debug and VM indicators, and runtime integrity monitoring. |
+| **Automation Bots** | Six Python automation engines using OpenCV and PyAutoGUI with visual matching, spiral-search logic, confidence thresholds, grayscale optimisation, timeouts, capped retries, strategy switching, and emergency recovery. |
+| **Frontend** | React 19 and Electron with 18+ specialised views, including live telemetry, AI guidance, bot control, diagnostics, community chat, plans, embedded browser, documentation, and supporting utilities. |
+| **Commercial Layer** | Five-tier access model — Trial, Free, Hooligan, VIP, and Black Level — with active-use metering and payment-provider integrations. |
+| **Infrastructure** | Docker packaging, Render Cloud deployment workflows, GitHub Actions CI/CD, and cloud backup/recovery paths. |
 
 ---
 
@@ -104,119 +159,120 @@ Here's what the application looks like in action:
 **Frontend**  
 `React 19` `Electron` `Zustand` `Redux` `Vite` `Tailwind CSS`
 
-**Backend**  
+**Backend & Data**  
 `Node.js` `Express.js` `WebSockets` `REST API` `JWT` `SQLite` `Redis`
 
-**Cryptography & Security**  
-`XChaCha20-Poly1305` `Ed25519` `Falcon-512` `SHA3-512` `BLAKE2` `scrypt` `PBKDF2` `AES-256-GCM` `TPM 2.0` `HWID Binding` `Constant-time Operations`
+**Cryptography & Security Experiments**  
+`XChaCha20-Poly1305` `Ed25519` `SHA3-512` `BLAKE2` `scrypt` `PBKDF2` `AES-256-GCM` `TPM 2.0` `HWID Binding` `Constant-time Operations`
 
 **Automation & Computer Vision**  
-`Python` `OpenCV` `PyAutoGUI` `YOLOv8` (trained on 160,000 images)
+`Python` `OpenCV` `PyAutoGUI` `YOLOv8`
 
 **Payments**  
 `Stripe` `PayPal` `Coinbase Commerce`
 
-**DevOps**  
-`Docker` `GitHub Actions` `Render Cloud` `Git` `N-API` (C++ addons)
+**DevOps & Delivery**  
+`Docker` `GitHub Actions` `Render Cloud` `Git` `N-API`
 
 ---
 
-## 📁 Project Structure (High‑Level)
+## 📁 Project Structure — High Level
 
-```
+```text
 phantom-shield/
-├── server/                 # Node.js/TypeScript backend
-│   ├── src/                # Main source – controllers, routes, middleware, security, mother, recovery...
-│   ├── protected/          # Core modules (core.bundle.js, Vite config, Electron main)
-│   ├── protected_modules/  # Bots, native module, frontend assets
-│   ├── native/             # C++ N-API module (libsodium, TPM, memory guard, anti-debug)
-│   └── data/               # SQLite databases (encrypted)
+├── server/                 # Node.js/TypeScript backend and orchestration
+│   ├── src/                # Controllers, routes, middleware, security, recovery, services
+│   ├── protected/          # Protected core modules and desktop runtime components
+│   ├── protected_modules/  # Automation, native, and frontend-delivery assets
+│   ├── native/             # C++ N-API module and systems experiments
+│   └── data/               # SQLite-backed application and operational state
 ├── client/                 # Electron/React frontend
-├── docker/                 # Dockerfile, multi‑stage builds
-├── scripts/                # Utility scripts (CI/CD, backups)
-├── test/                   # Unit, integration, annihilation (tier 1–23) tests
-└── README.md               # You are here
+├── docker/                 # Container and deployment configuration
+├── scripts/                # Utility, backup, validation, and delivery scripts
+├── test/                   # Unit, integration, smoke, and resilience testing
+├── docs/                   # Architecture and portfolio documentation
+└── README.md               # Project overview
 ```
+
+For a broader repository snapshot and directory-level evidence, see:
+
+[→ Repository Structure Evidence](./PHANTOM_SHIELD_REPOSITORY_STRUCTURE_EVIDENCE.md)
 
 ---
 
-## 🧪 Testing & Quality Assurance
+## 🧪 Testing, Reliability & Observability
 
-- **Unit tests** – individual modules.
-- **Integration tests** – cross‑component interactions.
-- **Annihilation tests (Tier 1‑23)** – stress tests for edge cases and boundary conditions.
-- **Smoke tests** – rapid deployment validation.
-- **Local QA of Python bots** – stability during hours‑long autonomous operation.
-- **Forensic logging** – Ed25519‑signed audit entries with hash‑chain verification.
+The project documentation describes a layered quality strategy that includes:
+
+- **Unit tests** for selected modules and validation rules;
+- **Integration tests** for cross-component interactions;
+- **Smoke tests** for critical startup and deployment flows;
+- **Stress and resilience testing** for malformed inputs, boundary conditions, failure states, and recovery behaviour;
+- **Long-running bot QA** to observe timing, recognition drift, retries, and recovery;
+- **Structured operational logging** for authentication, bot activity, communication, system state, and selected security events;
+- **Timeouts, retry limits, strategy switching, and emergency recovery** in automation workflows.
+
+> Labels such as “23-tier” or “annihilation testing” describe the internal testing concept. The strongest evidence remains a visible test inventory, executable commands, CI results, reproducible failures, and documented recovery behaviour.
 
 ---
 
-## 🚧 Getting Started (Development)
+## 🔍 What This Repository Demonstrates
 
-> **Note:** This project is currently at **~85% completion** – the core is fully functional, but some final polishing is underway.
+This repository is intended to demonstrate:
 
-### Prerequisites
+- rapid learning from zero prior programming experience;
+- conversion of a real repetitive task into an automation system;
+- end-to-end product thinking;
+- multi-language and multi-process integration;
+- practical use of logs, diagnostics, recovery, and source control;
+- AI-assisted specification, implementation, review, testing, and iteration;
+- willingness to document trade-offs and limitations rather than hide them;
+- persistence across a large, evolving technical project.
 
-- Node.js 20+
-- Python 3.11+
-- Docker (optional, for containerised deployment)
-- Git
+It does **not** claim that every subsystem is complete, independently audited, production-certified, or fully understood at source-code level by the author.
 
-### Clone the Repository
+---
 
-```bash
-git clone https://github.com/Kalafara/Automated-Ecosystem-Demo.git
-cd Automated-Ecosystem-Demo
-```
+## ⚖️ Engineering Boundaries & Trade-offs
 
-### Install Dependencies
+- **Custom cryptography:** educational and experimental value is high, but production systems should rely on audited libraries, standard protocols, reproducible test vectors, and independent security review.
+- **Encrypted message wrapping:** may complicate simple traffic analysis, but introduces bandwidth, latency, and processing overhead and does not replace TLS or sound key management.
+- **Electron and embedded content:** enable a rich desktop interface but increase the attack surface and require strict IPC boundaries, sandboxing, and content policies.
+- **Screen-driven automation:** works without internal application APIs but remains sensitive to resolution, layout, latency, and visual changes.
+- **SQLite:** practical for the current prototype and single-node scope; larger scale may require a managed relational database, queueing, cache, and tested recovery procedures.
+- **Large feature surface:** demonstrates product ambition, while a smaller stable core would improve maintainability, testing, and release readiness.
 
-```bash
-# Backend
-cd server
-npm install
+---
 
-# Frontend
-cd ../client
-npm install
-```
+## 🚧 Availability & Development Workflow
 
-### Environment Variables
+The commands and internal workflows used during development are not published here as public installation instructions.
 
-Create a `.env` file in the `server/` directory with the following (example):
+A complete external launch currently depends on private or environment-specific elements, including:
 
-```env
-NODE_ENV=development
-PORT=3000
-JWT_SECRET=your_jwt_secret
-STRIPE_SECRET_KEY=your_stripe_secret
-PAYPAL_CLIENT_ID=your_paypal_id
-PAYPAL_SECRET=your_paypal_secret
-COINBASE_API_KEY=your_coinbase_key
-GOOGLE_DRIVE_CLIENT_ID=...
-DROPBOX_ACCESS_TOKEN=...
-```
+- protected runtime modules and assets;
+- environment configuration;
+- credentials and payment-provider setup;
+- cloud services;
+- database state and recovery configuration;
+- native build dependencies;
+- project-specific orchestration and deployment settings.
 
-### Run the Development Server
+For this reason, cloning the repository should be understood as **source and architecture access**, not as a guarantee of an immediately runnable application.
 
-```bash
-cd server
-npm run dev
-```
+A reproducible public demo environment is a planned future milestone.
 
-### Run the Electron Client
+---
 
-```bash
-cd client
-npm run electron:dev
-```
+## 🗺️ Recommended Next Milestones
 
-### Docker Deployment (Production‑like)
-
-```bash
-docker build -t phantom-shield .
-docker run -p 3000:3000 phantom-shield
-```
+- Produce a stable, documented demonstration build.
+- Publish a one-command or scripted demo environment with safe seed data.
+- Map major testing claims to named commands and visible CI evidence.
+- Complete an Electron security review covering context isolation, IPC, sandboxing, and embedded content.
+- Simplify the minimum production core and separate optional portfolio modules.
+- Replace experimental production cryptography paths with established, independently audited components.
+- Add structured health metrics for server, bots, database, payments, and backup workflows.
 
 ---
 
@@ -229,20 +285,21 @@ See the [LICENSE](LICENSE) file for details.
 
 ## 👤 About the Author
 
-**Angel Dimitrov** – self‑taught software developer and systems architect from Sofia, Bulgaria. After 20+ years in B2B sales, real estate, and logistics, I discovered programming and built this ecosystem in six months using a structured AI‑assisted engineering methodology.
+**Angel Dimitrov** is a self-taught developer and systems integrator from Sofia, Bulgaria. After more than 20 years in B2B sales, real estate, transport, and logistics, I discovered programming through a repetitive task that I wanted to automate.
 
-I am currently seeking a remote junior/associate position in software development or QA automation, where I can contribute immediately and continue growing as an engineer.
+Over six months, I developed Phantom Shield through an intensive AI-assisted process, defining the product direction, requesting and reviewing features, integrating system components, testing live behaviour, examining logs, and iterating through failures.
+
+I am currently seeking a junior/associate role where I can contribute practical automation experience, persistence, operational thinking, and strong motivation while developing deeper independent technical skills through real teamwork and mentoring.
 
 📫 **Contact:** [angel.d.dimitrovv@gmail.com](mailto:angel.d.dimitrovv@gmail.com)  
-🔗 **LinkedIn:** [linkedin.com/in/angel-dimitrov](https://linkedin.com/in/angel-dimitrov) *(coming soon)*  
 🐙 **GitHub:** [Kalafara/Automated-Ecosystem-Demo](https://github.com/Kalafara/Automated-Ecosystem-Demo)
 
 ---
 
 ## ⭐ Show Your Support
 
-If you find this project interesting or useful, please consider **starring** the repository – it helps others discover it and motivates me to keep improving.
+If you find this project interesting, please consider **starring** the repository. It helps others discover the work and supports its continued development.
 
 ---
 
-*"I don't write code to find a job. I'm looking for a job so I can keep writing code."*
+*"I don't write code to find a job. I'm looking for a job so I can keep building."*
